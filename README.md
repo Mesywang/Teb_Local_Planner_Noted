@@ -1,5 +1,8 @@
 # Teb_Local_Planner_Noted
-备注: 当前只注释了最原始的teb版本, 通过探索地图的拓扑结构来并行优化多条轨迹从而避免局部最优的部分(homotopy_class_planner.cpp)暂时还未阅读。
+teb_local_planner中文注释版, 仅为个人学习的总结，若有错漏之处，敬请指正。
+
+备注: 当前只注释了最原始的只优化一条轨迹的版本，通过探索地图的拓扑结构来并行优化多条轨迹从而避免局部最优的部分(homotopy_class_planner.cpp)暂时还未完成。
+***
 # teb_local_planner ROS Package
 
 The teb_local_planner package implements a plugin to the base_local_planner of the 2D navigation stack. 
